@@ -66,6 +66,15 @@ namespace QuickShort
             pivot = arr[low];
 
             while (i <= j)
+            {
+                //Search for an element greather than pivot
+                while ((arr[i] <= pivot) && (i <= high))
+                {
+                    i++;
+                    cmp_count++;
+                }
+                cmp_count++;
+            }
         }
         static void Main(string[] args)
         {
