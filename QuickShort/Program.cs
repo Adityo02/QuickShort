@@ -125,6 +125,8 @@ namespace QuickShort
         {
             //Declaring the object of the class
             Program myList = new Program();
+            //Accept array elemets
+            myList.read();
 
         }
     }
