@@ -127,7 +127,9 @@ namespace QuickShort
             Program myList = new Program();
             //Accept array elemets
             myList.read();
-
+            //Calling the sorting function
+            //Frist call to quicksort algorithm
+            myList.q_sort(0, myList.getSize() - 1);
         }
     }
 }
