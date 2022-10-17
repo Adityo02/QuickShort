@@ -22,6 +22,7 @@ namespace QuickShort
             while (true)
             {
                 Console.Write("Enter the number of elements in the array :");
+                string s = Console.ReadLine();
             }
         }
         static void Main(string[] args)
