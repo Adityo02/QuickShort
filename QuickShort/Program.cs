@@ -104,6 +104,10 @@ namespace QuickShort
             //Sort the list on the right of pivot using quicksort
             q_sort(j + 1, high);
         }
+        void display()
+        {
+
+        }
         static void Main(string[] args)
         {
         }
