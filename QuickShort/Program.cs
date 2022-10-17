@@ -130,6 +130,8 @@ namespace QuickShort
             //Calling the sorting function
             //Frist call to quicksort algorithm
             myList.q_sort(0, myList.getSize() - 1);
+            //Display sorted array
+            myList.display();
         }
     }
 }
