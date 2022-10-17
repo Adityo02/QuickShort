@@ -15,6 +15,9 @@ namespace QuickShort
 
         // number of element in array
         private int n;
+
+
+        void read() { }
         static void Main(string[] args)
         {
         }
