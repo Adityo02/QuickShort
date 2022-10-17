@@ -123,6 +123,9 @@ namespace QuickShort
         }
         static void Main(string[] args)
         {
+            //Declaring the object of the class
+            Program myList = new Program();
+
         }
     }
 }
