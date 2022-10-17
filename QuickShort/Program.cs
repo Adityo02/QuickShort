@@ -115,7 +115,11 @@ namespace QuickShort
                 Console.WriteLine(arr[j]);
             }
             Console.WriteLine("\nNumber of Comparisons : " + cmp_count);
-            Console.WriteLine(("\nNumber of Data Movemenets : " + mov_count);
+            Console.WriteLine("\nNumber of Data Movemenets : " + mov_count);
+        }
+        int getSize()
+        {
+            return (n);
         }
         static void Main(string[] args)
         {
