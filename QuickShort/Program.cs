@@ -50,6 +50,10 @@ namespace QuickShort
             arr[x] = arr[y];
             arr[y] = temp;
         }
+        public void q_sort(int low, int high)
+        {
+            int pivot, i, j;
+        }
         static void Main(string[] args)
         {
         }
