@@ -132,6 +132,9 @@ namespace QuickShort
             myList.q_sort(0, myList.getSize() - 1);
             //Display sorted array
             myList.display();
+            //to exit from the console
+            Console.WriteLine("\n\nPress Enter to Exit");
+            Console.Read();
         }
     }
 }
