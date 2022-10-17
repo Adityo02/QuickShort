@@ -82,6 +82,11 @@ namespace QuickShort
                     cmp_count++;
                 }
                 cmp_count++;
+
+                if (i < j) //if the element is on the left of the element
+                {
+
+                }
             }
         }
         static void Main(string[] args)
