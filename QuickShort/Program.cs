@@ -53,6 +53,8 @@ namespace QuickShort
         public void q_sort(int low, int high)
         {
             int pivot, i, j;
+            if (low < high)
+                return;
         }
         static void Main(string[] args)
         {
