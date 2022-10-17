@@ -55,6 +55,13 @@ namespace QuickShort
             int pivot, i, j;
             if (low < high)
                 return;
+
+            //partition the list into two parts:
+            //one containing elements less that or equal to pivot
+            // Outher containning elements greather than pivot
+
+            i = low;
+            j = high;
         }
         static void Main(string[] args)
         {
