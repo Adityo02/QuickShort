@@ -24,6 +24,10 @@ namespace QuickShort
                 Console.Write("Enter the number of elements in the array :");
                 string s = Console.ReadLine();
                 n = Int32.Parse(s);
+                if (n <= 20)
+                    break;
+                else
+                    Console.WriteLine("\nArray Can Have Maximum 20 Elements \n");
             }
         }
         static void Main(string[] args)
