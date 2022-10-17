@@ -62,6 +62,8 @@ namespace QuickShort
 
             i = low;
             j = high;
+
+            pivot = arr[low];
         }
         static void Main(string[] args)
         {
