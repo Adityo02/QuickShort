@@ -17,7 +17,10 @@ namespace QuickShort
         private int n;
 
 
-        void read() { }
+        void read()
+        {
+            while (true)
+        }
         static void Main(string[] args)
         {
         }
