@@ -98,8 +98,11 @@ namespace QuickShort
                 swap(low, j);
                 mov_count++;
             }
-            //Sort the list on the right of pivot using quicksort
+            //Sort the list on the left of pivot using quicksort
             q_sort(low, j - 1);
+
+            //Sort the list on the right of pivot using quicksort
+            q_sort(j + 1, high);
         }
         static void Main(string[] args)
         {
